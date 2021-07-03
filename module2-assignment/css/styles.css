@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  size: 10px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  size: 1.75em;
+}
+
+.row{
+    width: 100%;
+}
+
+p {
+    margin: 20px;
+    height: 150px;  
+    background-color: gray;
+    border: 3px solid black;
+}
+
+
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,
+  .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%; 
+  }
+}
+
+
