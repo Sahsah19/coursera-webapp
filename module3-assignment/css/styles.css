@@ -1,0 +1,63 @@
+* {
+    font-size: 16px;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.navbar {
+    background-color: #828282;
+    border-radius: 0;
+}
+
+.navbar-header .navbar-brand {
+    font-size: 1.75em;
+    padding: 15px 0 0 10px;
+    color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin: -10px 0 30px;
+}
+
+#content {
+    background-color: #828282;
+    margin: 0 20px 20px 20px;
+    padding: 1px 25px 25px 25px;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+@media (max-width: 767px) {
+    #content {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-header .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .navbar-collapse {
+        background-color: white;
+        color: black;
+    }
+    
+    ul li {
+        border: 1px solid black;
+    }
+
+    #nav-list {
+        list-style-type: none;
+        color: black;
+        padding: 5px 0 0 0;
+        background-color: white;
+    }
+}
